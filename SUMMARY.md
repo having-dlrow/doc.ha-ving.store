@@ -61,6 +61,8 @@
   * [airflow](tech/ci-cd/airflow/README.md)
     * [Install](tech/ci-cd/airflow/install.md)
 * [🍙 Application](tech/application/README.md)
+  * [🌵 ETCD](tech/application/etcd/README.md)
+    * [Raft 알고리즘](tech/application/etcd/raft.md)
   * [⛵ Redis](tech/application/redis/README.md)
     * [Data Structure](tech/application/redis/data-structure.md)
     * [Data Backup](tech/application/redis/data-backup.md)
