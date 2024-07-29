@@ -14,7 +14,7 @@ description: '#Strategic_Enterprise_Management #KPI(핵심성과지표)'
 
 ### 구성도
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 구성요소
 
