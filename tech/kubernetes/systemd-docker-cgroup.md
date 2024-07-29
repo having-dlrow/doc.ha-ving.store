@@ -77,3 +77,8 @@ Control group /:
 도커에서 cgroupfs를 cgroup v1에서만 사용, cgroup v2에서는 systemd로 변경할 계획이 있음을 밝혔다.
 {% endhint %}
 
+
+
+Ref
+
+* [https://www.slideshare.net/slideshow/systemd-cgroup/250042237#1](https://www.slideshare.net/slideshow/systemd-cgroup/250042237#1)
