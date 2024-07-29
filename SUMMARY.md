@@ -54,6 +54,7 @@
   * [Operator](tech/kubernetes/operator/README.md)
     * [Page 2](tech/kubernetes/operator/page-2.md)
   * [Kubernetes Gateway API](tech/kubernetes/kubernetes-gateway-api.md)
+  * [cgroup](tech/kubernetes/cgroup.md)
 * [🚀 CI/CD](tech/ci-cd/README.md)
   * [Ansible](tech/ci-cd/ansible.md)
   * [Jenkins](tech/ci-cd/jenkins/README.md)
