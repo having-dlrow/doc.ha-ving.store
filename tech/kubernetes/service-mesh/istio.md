@@ -10,7 +10,7 @@ Kubernetes Istio : 완벽 실습 과정
 
 ## 구성요소
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 1. Kiali : 연결 관리 툴
 2. <mark style="color:red;">Envoy</mark> : Proxy
@@ -95,7 +95,7 @@ istio설정을 file로 관리하는 기능을 제공하고 있으며, 이것을 
 
 ## Envoy Proxy
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * Envoy Proxy로 구성된 Data Plane을 컨트롤 하는 것이 Istio이다.
 

@@ -4,9 +4,9 @@
 
 {% embed url="https://docs.cloudfoundry.org/concepts/architecture/" %}
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>@copyright. cloudfoudnry.org</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>@copyright. cloudfoudnry.org</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt="" width="563"><figcaption><p>Deigo architecture</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt="" width="563"><figcaption><p>Deigo architecture</p></figcaption></figure>
 
 <table><thead><tr><th width="178">컴포넌트</th><th width="270">역할</th><th>특징</th></tr></thead><tbody><tr><td>Gorouter</td><td>외부 요청 라우팅 및 로드 밸런싱</td><td>HTTP 트래픽 관리, 다양한 애플리케이션에 대한 동적 라우팅 제공</td></tr><tr><td>UAA</td><td>사용자 인증 및 권한 부여</td><td>OAuth2 프로토콜 지원, 시스템 보안 및 사용자 관리 담당</td></tr><tr><td>Cloud Controller</td><td>애플리케이션 수명 주기 관리 <br>(배포, 업데이트, 삭제 등)</td><td>REST API를 제공, 애플리케이션 관리 중앙 집중식 처리</td></tr><tr><td>Diego</td><td>애플리케이션 컨테이너 오케스트레이션</td><td>애플리케이션 실행 환경 제공, 확장성 및 고가용성 보장</td></tr><tr><td>Blobstore</td><td>애플리케이션 코드, 빌드팩, 도커 이미지 등의 저장소</td><td>파일 저장 및 접근 관리, 데이터 영속성 제공</td></tr><tr><td>Service Broker</td><td>외부 서비스와의 통합 관리</td><td>다양한 서비스(데이터베이스, 메시징 시스템 등) 제공 및 관리</td></tr><tr><td>Loggregator</td><td>로그 및 메트릭 수집 및 전달</td><td>실시간 로그 스트리밍, 시스템 모니터링 및 분석 지원</td></tr></tbody></table>
 

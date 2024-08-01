@@ -1,4 +1,4 @@
-# Operator
+# 12. Kubernetes Operator
 
 <figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 

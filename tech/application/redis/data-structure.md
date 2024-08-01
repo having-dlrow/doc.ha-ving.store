@@ -1,4 +1,4 @@
-# Data Structure
+# 1. Data Structure
 
 <table><thead><tr><th width="162">제공 데이터</th><th></th></tr></thead><tbody><tr><td>List</td><td>Linked List,  Quick List</td></tr><tr><td>Sets</td><td>SKIP List, ZIP List</td></tr><tr><td>Hash</td><td>-</td></tr><tr><td>Stream</td><td>-</td></tr></tbody></table>
 
