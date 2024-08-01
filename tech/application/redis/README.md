@@ -27,8 +27,8 @@
 
 ## Redis Engine
 
-* [thread](thread/ "mention")
-* [undefined.md](undefined.md "mention")
+* [3.-thread](3.-thread/ "mention")
+* [4..md](4..md "mention")
 
 ## Redis 백업 전략 <a href="#redis-eb-8a-94-20-ec-8b-b1-ea-b8-80-20-ec-8a-a4-eb-a0-88-eb-93-9c-ec-9d-b4-eb-8b-a4.-1" id="redis-eb-8a-94-20-ec-8b-b1-ea-b8-80-20-ec-8a-a4-eb-a0-88-eb-93-9c-ec-9d-b4-eb-8b-a4.-1"></a>
 
