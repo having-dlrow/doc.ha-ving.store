@@ -1,5 +1,11 @@
 # Linkerd
 
+[Linkerd vs. Istio (Rust vs. C++) performance benchmark (2023) ](https://www.youtube.com/watch?v=pzcuE0aVvP0)
+
+<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+
+* CPU 사용량 및 Latency 에서 Linked 가 우수한 성과를 보였다.
+
 ### CLI 설치 <a href="#step-1-install-the-cli" id="step-1-install-the-cli"></a>
 
 ```bash

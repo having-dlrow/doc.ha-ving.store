@@ -4,11 +4,12 @@ coverY: 0
 
 # Istio
 
-Kubernetes Istio : 완벽 실습 과정
+* [https://github.com/DickChesterwood/istio-fleetman](https://github.com/DickChesterwood/istio-fleetman) Kubernetes Istio : 완벽 실습 과정
+* [https://fastcampus.co.kr/dev\_online\_devops\_kubernetes](https://fastcampus.co.kr/dev\_online\_devops\_kubernetes) 실무까지 한번에 끝내는 DevOps를 위한 Docker & Kubernetes
 
-* [https://github.com/DickChesterwood/istio-fleetman](https://github.com/DickChesterwood/istio-fleetman)
+## istiod 구성요소
 
-## 구성요소
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -25,62 +26,7 @@ Kubernetes Istio : 완벽 실습 과정
      * 새로운 인스턴스가 생성되면, Platform Adapter에게 알림
      * 그럼 envoy proxy 들에게 알림
 
-## Install&#x20;
 
-[https://istio.io/latest/docs/setup/getting-started/#download](https://istio.io/latest/docs/setup/getting-started/#download)&#x20;
-
-```
-curl -L https://istio.io/downloadIstio | sh -
-cd istio-1.22.3
-cp -v ./bin/istioctl /usr/local/bin
-```
-
-특정 버전 다운로드
-
-```
-curl -sL https://istio.io/downloadIstioctl | ISTIO_VERSION=1.10.3 TARGET_ARCH=x86_64 sh -
-```
-
-{% code fullWidth="true" %}
-```
-istioctl install istio-operator.yaml
-```
-{% endcode %}
-
-```
-apiVersion: install.istio.io/v1alpha1
-kind: IstioOperator
-metadata:
-  namespace: istio-system
-  name: istiocontrolplane
-spec:
-  profile: default
-  components:
-    egressGateways:
-    - name: istio-egressgateway
-      enabled: true
-      k8s:
-        hpaSpec:
-          minReplicas: 2
-    ingressGateways:
-    - name: istio-ingressgateway
-      enabled: true
-      k8s:
-        hpaSpec:
-          minReplicas: 2
-    pilot:
-      enabled: true
-      k8s:
-        hpaSpec:
-          minReplicas: 2
-  meshConfig:
-    enableTracing: true
-    defaultConfig:
-      holdApplicationUntilProxyStarts: true
-    accessLogFile: /dev/stdout
-    outboundTrafficPolicy:
-      mode: REGISTRY_ONLY
-```
 
 ### Istio Profile
 
@@ -90,18 +36,6 @@ spec:
 ### Istio Operator
 
 istio설정을 file로 관리하는 기능을 제공하고 있으며, 이것을 istio Operator라고 부릅니다.
-
-
-
-## Envoy Proxy
-
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-* Envoy Proxy로 구성된 Data Plane을 컨트롤 하는 것이 Istio이다.
-
-
-
-<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 
 

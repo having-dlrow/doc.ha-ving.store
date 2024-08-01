@@ -1,4 +1,4 @@
-# 분산 시스템
+# 👸 CRDT 분산 시스템
 
 [https://ably.com/blog/crdts-distributed-data-consistency-challenges#use-cases-for-crdts](https://ably.com/blog/crdts-distributed-data-consistency-challenges#use-cases-for-crdts)&#x20;
 
