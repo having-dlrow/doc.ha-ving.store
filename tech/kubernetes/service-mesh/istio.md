@@ -99,3 +99,13 @@ istio설정을 file로 관리하는 기능을 제공하고 있으며, 이것을 
 
 * Envoy Proxy로 구성된 Data Plane을 컨트롤 하는 것이 Istio이다.
 
+
+
+<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+
+
+
+Ref&#x20;
+
+* [https://dramasamy.medium.com/life-of-a-packet-in-istio-part-1-8221971d77de](https://dramasamy.medium.com/life-of-a-packet-in-istio-part-1-8221971d77de)
+*

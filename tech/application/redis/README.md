@@ -41,3 +41,4 @@
 ## Ref
 
 * [\[우아한테크 세미나\] 우아한 레디스](https://www.youtube.com/watch?v=mPB2CZiAkKM)
+* [https://www.youtube.com/watch?v=IxTUXuoIWro](https://www.youtube.com/watch?v=IxTUXuoIWro)&#x20;
