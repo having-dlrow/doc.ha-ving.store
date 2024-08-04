@@ -91,6 +91,7 @@
     * [≤ JAVA8](tech/application/java/java8/README.md)
       * [autoboxing ( version.5 )](tech/application/java/java8/autoboxing-version.5.md)
       * [Lambda](tech/application/java/java8/lambda.md)
+      * [equals() , hashcode()](tech/application/java/java8/equals-hashcode.md)
     * [≤ JAVA17](tech/application/java/java17/README.md)
       * [Record Class](tech/application/java/java17/record-class.md)
       * [OOP](tech/application/java/java17/oop.md)
@@ -182,6 +183,7 @@
     * [- 전략적 기업 경영 ( SEM )](books/it/it/sem.md)
   * [🌊 융합 IT](books/it/it-1/README.md)
     * [Docker K8s](books/it/it-1/docker-k8s.md)
+    * [Docker](books/it/it-1/docker.md)
   * [🔃 SW 공학](books/it/sw/README.md)
     * [- ISP , BPR 의 개념과 수행절차를 비교](books/it/sw/isp-bpr.md)
     * [- 폭포수 와 애자일 특징 및 장단점 비교](books/it/sw/undefined.md)
@@ -198,6 +200,9 @@
     * [- 삽입정렬 (Insertion Sort)](books/it/undefined-4/insertion-sort.md)
     * [- 퀵정렬 (Quick Sort)](books/it/undefined-4/quick-sort.md)
     * [- 병합 정렬(Merge Sort)](books/it/undefined-4/merge-sort.md)
+    * [HashMap vs HashTable](books/it/undefined-4/hashmap-vs-hashtable.md)
+    * [B-Tree , B+Tree](books/it/undefined-4/b-tree-b+tree.md)
+    * [DFS/BFS](books/it/undefined-4/dfs-bfs.md)
 
 ## 한글화 작업
 

@@ -15,7 +15,7 @@ ef4896538cc7        none                null        local
 
 ### Driver 종류
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt="" width="375"><figcaption><p>@copywrite docker official github</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt="" width="375"><figcaption><p>@copywrite docker official github</p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>@copywrite docker official github</p></figcaption></figure>
 

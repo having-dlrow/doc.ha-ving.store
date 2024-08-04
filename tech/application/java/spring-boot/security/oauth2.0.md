@@ -8,7 +8,7 @@ OAuth2.0 은 애플리케이션 인증 및 권한 부여를 위한 개방형 표
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -30,13 +30,13 @@ OAuth2.0 은 애플리케이션 인증 및 권한 부여를 위한 개방형 표
 
     <div align="left">
 
-    <figure><img src="../../../../../.gitbook/assets/image (2).png" alt="" width="188"><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
     </div>
 
 
 2. 카카오 개발자 센터에 등록한 /social/login/kakao?code=xxxxx 호출 해줌\
-   ![](<../../../../../.gitbook/assets/image (4).png>)
+   ![](<../../../../../.gitbook/assets/image (4) (1).png>)
 3.  social/login/kakao controller 에서 Access Token 요청 호출
 
     1. **{kakao.url/oauth/token}?client\_id=xxx\&response\_type=code\&redirect\_url={액세스토큰받는URL}**
@@ -67,7 +67,7 @@ OAuth2.0 은 애플리케이션 인증 및 권한 부여를 위한 개방형 표
 
 \[ 카카오로 다시 확인 ]
 
-<figure><img src="../../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### JWT 토큰 방식 비교
 
@@ -91,13 +91,13 @@ Refresh Token의 역할
 
 **Authorization Code Grant**
 
-<figure><img src="../../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Implicit**
 
 * 이렇게 카카오가 안해주니까, 이런 방식은 안쓴다.
 
-<figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Resource Owner Password**
 
@@ -105,14 +105,14 @@ Refresh Token의 역할
 * Application (내가 만든 서버) , Resource Server 가 **같은 회사일 때**
 *
 
-    <figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Client Credentials Flow
 
 * 클라이언트가 직접 카카오 회원에 정보 요청 할 때
 * 제휴사 API , 서버간 통신
 
-<figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ref
 
