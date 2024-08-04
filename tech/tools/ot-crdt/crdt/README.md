@@ -1,5 +1,11 @@
 # CRDT
 
+2011년 등장한 개념이다.
+
+해시맵, 리스트 와 같은 범용 데이터 구조
+
+
+
 CRDT 알고리즘
 
 1. Logoot - interleaving 발생

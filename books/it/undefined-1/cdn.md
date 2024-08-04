@@ -46,3 +46,8 @@ ex) 토스 \
 * 주로 IOT 기기에 실시간 응답/분석 결과 등을 전달 한다.
 * 지연 시간을 감소한다.
 * 중앙의 서버에서 데이터를 처리 하지 않고, 로컬에서 처리하는 목적이다.
+
+Ref&#x20;
+
+* [https://www.akamai.com/ko/glossary/what-is-a-cloud-cdn](https://www.akamai.com/ko/glossary/what-is-a-cloud-cdn)
+* [https://toss.tech/article/smart-web-service-cache](https://toss.tech/article/smart-web-service-cache)

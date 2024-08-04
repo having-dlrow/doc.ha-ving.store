@@ -1,6 +1,6 @@
 # 📏 OpenShift
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>@Copywrite Gartner</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>@Copywrite Gartner</p></figcaption></figure>
 
 <mark style="color:green;">Upstream Open Source</mark> : 개발자들의 Contribution을 통해 이뤄진, 원본의 공개 소스을 의미
 
