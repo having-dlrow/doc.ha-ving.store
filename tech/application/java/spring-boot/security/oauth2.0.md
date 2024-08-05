@@ -8,7 +8,7 @@ OAuth2.0 은 애플리케이션 인증 및 권한 부여를 위한 개방형 표
 
 <div align="left">
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 

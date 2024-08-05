@@ -35,7 +35,7 @@ layout:
        1. 튜링테스트 : '컴퓨터가 사람의 행동을 얼마나 모방하는가'를 정의 \
           ex) 보고(자연어처리,컴퓨터비전), 듣고(음성인식), 운전하고(자율주행), 움직이고(로보스틱)
 
-       <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
