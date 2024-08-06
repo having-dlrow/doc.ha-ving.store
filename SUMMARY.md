@@ -123,6 +123,8 @@
     * [Apache](tech/application/nginx/apache.md)
   * [🐻‍❄️ Go](tech/application/go/README.md)
     * [pprof](tech/application/go/pprof.md)
+    * [Goroutine](tech/application/go/goroutine/README.md)
+      * [1. Sync](tech/application/go/goroutine/1.-sync.md)
   * [🏹 Istio](tech/application/istio.md)
   * [🐦 Envoy](tech/application/envoy.md)
   * [🔎 Elastic Search](tech/application/elastic-search/README.md)
