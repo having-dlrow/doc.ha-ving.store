@@ -143,6 +143,7 @@
   * [- Multi Git Account](tech/tools/multi-git-account/README.md)
     * [Git](tech/tools/multi-git-account/git.md)
   * [인증서 관리](tech/tools/undefined.md)
+  * [Makefile](tech/tools/makefile.md)
 
 ## Books
 
