@@ -118,7 +118,7 @@
       * [Spring Cloud Eureka](tech/application/java/spring-cloud/spring-cloud-eureka.md)
   * [🌱 MongoDB](tech/application/mongodb/README.md)
     * [1. Cluster](tech/application/mongodb/1.-cluster.md)
-    * [XID, UUID 차](tech/application/mongodb/xid-uuid.md)
+    * [XID, UUID 차이](tech/application/mongodb/xid-uuid.md)
   * [🎁 Python](tech/application/python.md)
   * [🆗 Nginx](tech/application/nginx/README.md)
     * [Apache](tech/application/nginx/apache.md)

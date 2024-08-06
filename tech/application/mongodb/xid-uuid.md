@@ -1,4 +1,4 @@
-# XID, UUID 차
+# XID, UUID 차이
 
 UUID (Universally Unique Identifier)
 
