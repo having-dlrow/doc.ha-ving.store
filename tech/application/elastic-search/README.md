@@ -13,7 +13,7 @@
    1. 샤드
       1.
 
-          <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>number_of_replicas = 1</p></figcaption></figure>
+          <figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>number_of_replicas = 1</p></figcaption></figure>
       2.
 
           <figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>number_of_replicas = 2</p></figcaption></figure>

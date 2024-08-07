@@ -33,7 +33,7 @@
 
     #### HashMap vs HashTable
 
-    <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
     * Java11 기준이며, HashMap은 key, value 모두 null값을 허용합니다.
 
