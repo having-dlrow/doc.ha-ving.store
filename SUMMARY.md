@@ -76,6 +76,7 @@
       * [Sample-operator](tech/kubernetes/12.-kubernetes-operator/controller/sample-operator/README.md)
         * [main.go](tech/kubernetes/12.-kubernetes-operator/controller/sample-operator/main.go.md)
         * [Controller.go](tech/kubernetes/12.-kubernetes-operator/controller/sample-operator/controller.go.md)
+      * [Struct 구조](tech/kubernetes/12.-kubernetes-operator/controller/struct.md)
   * [13. Kubernetes Monitoring](tech/kubernetes/13.-kubernetes-monitoring.md)
 * [🍙 Application](tech/application/README.md)
   * [🌵 ETCD](tech/application/etcd/README.md)
