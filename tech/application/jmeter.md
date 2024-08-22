@@ -15,7 +15,13 @@ icon: monero
 1. Jmeter 홈페이지 다운로드
 2. Plugin 설치 ( https://jmeter-plugins.org/get/ )
 
-### 맨날 헷갈리는 용어
+### 맨날 헷갈리는 개념
+
+⚠️ 주의 할 것
+
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Think Time (대기 시간)이 발생 할 수 있다.</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption><p>TPS = 동시사용자/ (응답시간 + 대기시간)</p></figcaption></figure>
 
 Ramp-Up Period :&#x20;
 
@@ -56,6 +62,10 @@ Thread Group
 ## Endurance Test
 
 * Add > Timer > Constant Timer
+
+
+
+
 
 Ref
 
