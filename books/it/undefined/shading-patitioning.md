@@ -27,7 +27,7 @@
   * 샤딩과 유사하지만, 파티셔닝은 단일 DB에서 주로 사용
   *
 
-      <figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 * 장점
   * 파티션 단위 백업, 추가, 삭제, 변경에 용이함
   * 파티션 단위 조회 및 DML을 수행함으로써 필요한 부분만 탐색 가능

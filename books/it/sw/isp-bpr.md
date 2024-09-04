@@ -6,17 +6,17 @@ description: '#ISP #전자정부_ISP #ISMP #EA, BRP'
 
 ## ISP 와 BPR 정의
 
-<table><thead><tr><th width="61"></th><th width="314">ISP</th><th>BPR</th></tr></thead><tbody><tr><td>개념</td><td><img src="../../../.gitbook/assets/image (13) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (14) (1).png" alt="" data-size="original"></td></tr><tr><td>특성</td><td>조직의 비전 및 전략 수립 활동</td><td>조직 업무 프로세스 자동화 , <br>핵심경영성과 지표화 (비용절감 서비스<br>향상)</td></tr></tbody></table>
+<table><thead><tr><th width="61"></th><th width="314">ISP</th><th>BPR</th></tr></thead><tbody><tr><td>개념</td><td><img src="../../../.gitbook/assets/image (13) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (14) (1) (1).png" alt="" data-size="original"></td></tr><tr><td>특성</td><td>조직의 비전 및 전략 수립 활동</td><td>조직 업무 프로세스 자동화 , <br>핵심경영성과 지표화 (비용절감 서비스<br>향상)</td></tr></tbody></table>
 
 ## ISP 와 BPR 수행절차 비교
 
-<table><thead><tr><th width="114"></th><th width="272">ISP</th><th>BPR</th></tr></thead><tbody><tr><td>절차</td><td><img src="../../../.gitbook/assets/image (15) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (16) (1).png" alt="" data-size="original"></td></tr><tr><td>목적</td><td>비지니스 비전 및 IT계획 수립 <br>( 계획 중심 )</td><td>업무  프로세스 개선<br>생산성 향상</td></tr></tbody></table>
+<table><thead><tr><th width="114"></th><th width="272">ISP</th><th>BPR</th></tr></thead><tbody><tr><td>절차</td><td><img src="../../../.gitbook/assets/image (15) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (16) (1) (1).png" alt="" data-size="original"></td></tr><tr><td>목적</td><td>비지니스 비전 및 IT계획 수립 <br>( 계획 중심 )</td><td>업무  프로세스 개선<br>생산성 향상</td></tr></tbody></table>
 
 ## 기업에서 ISP, BRP 상호보완적 활용 방안
 
 ### 가. 상호보완적 관계도
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 나. 상세 설명
 

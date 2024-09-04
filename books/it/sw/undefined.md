@@ -16,7 +16,7 @@
 
 ### 가. 폭포수 방법론 과  애자일 방법론  특징
 
-<table><thead><tr><th width="107"></th><th width="281">폭포수</th><th>애자일</th></tr></thead><tbody><tr><td>개념도</td><td><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt="" data-size="original"></td></tr><tr><td>정의</td><td>요구분석 > 설계 > 개발 > 테스트<br>순차적 진행</td><td>작은 단위의 요구사항<br>반복적으로 (분석 > 설계 > 개발 > 테스트) 진행</td></tr></tbody></table>
+<table><thead><tr><th width="107"></th><th width="281">폭포수</th><th>애자일</th></tr></thead><tbody><tr><td>개념도</td><td><img src="../../../.gitbook/assets/image (7) (1) (1) (1).png" alt="" data-size="original"></td><td><img src="../../../.gitbook/assets/image (8) (1) (1) (1).png" alt="" data-size="original"></td></tr><tr><td>정의</td><td>요구분석 > 설계 > 개발 > 테스트<br>순차적 진행</td><td>작은 단위의 요구사항<br>반복적으로 (분석 > 설계 > 개발 > 테스트) 진행</td></tr></tbody></table>
 
 ### 나. 폭포수 방법론 과  애자일 방법론  장/단점
 

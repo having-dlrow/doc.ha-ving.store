@@ -8,7 +8,7 @@
   * 또 여기엔 내부 구조를 숨긴다는 의미도 내포되어 있다.
 * 복잡한 서브 시스템을 최대한 숨겨 의존성을 최소화하는 방법이다.
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **퍼사드 (Facade) 패턴의 장단점**
 

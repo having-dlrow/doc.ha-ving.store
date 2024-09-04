@@ -7,7 +7,7 @@
   * 대표적으로 롤링 배포 시나리오는 아래와 같습니다.
   *
 
-      <figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 \[ 정답 ]
 

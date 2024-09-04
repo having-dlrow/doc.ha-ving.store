@@ -33,7 +33,7 @@
   * **결론적으로 모든 상황을 위해 모든 배치 시나리오를 준비**
 * NameSpace & Label 지원
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Auto Scaling 지원**
   * 손쉽게 리소스 확장 가능
