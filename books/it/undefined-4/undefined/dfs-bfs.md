@@ -22,7 +22,7 @@
 
 **그래프 탐색 알고리즘**
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 *   **너비(Beneath) 우선탐색**
 

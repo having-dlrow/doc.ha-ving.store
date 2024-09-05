@@ -22,7 +22,7 @@
 
 ### 도커 구조
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. **도커 엔진** (도커 서버) : 도커의 CLI 명령어를 해석한다.
 2. **Containerd**
@@ -33,7 +33,7 @@
 
 ## 도커 이미지 구조
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 레이어로 이루어진다.
 2. base layer에 Linux boot filesystem 이미지를 두고 시작한다. ( bootfs )

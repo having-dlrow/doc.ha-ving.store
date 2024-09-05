@@ -240,7 +240,11 @@
         * [K평균알고리즘](books/it/undefined-4/undefined-1/undefined-1/k.md)
         * [DBSCAN](books/it/undefined-4/undefined-1/undefined-1/dbscan.md)
       * [강화학습](books/it/undefined-4/undefined-1/undefined-2.md)
-    * [딥러닝](books/it/undefined-4/undefined-2.md)
+    * [딥러닝](books/it/undefined-4/undefined-2/README.md)
+      * [인공 신경망](books/it/undefined-4/undefined-2/undefined/README.md)
+        * [퍼센트론](books/it/undefined-4/undefined-2/undefined/undefined.md)
+        * [MNIST](books/it/undefined-4/undefined-2/undefined/mnist.md)
+      * [Tensor](books/it/undefined-4/undefined-2/tensor.md)
     * [AI](books/it/undefined-4/ai.md)
 
 ## 한글화 작업
