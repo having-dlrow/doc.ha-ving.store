@@ -39,7 +39,17 @@ istio설정을 file로 관리하는 기능을 제공하고 있으며, 이것을 
 
 
 
+요약
+
+VirtualService 와 Destination Rule을 가지고, 트래픽이 어디로 갈지 조절하는 것이라고 생각하면됨
+
+
+
+
+
+
+
 Ref&#x20;
 
 * [https://dramasamy.medium.com/life-of-a-packet-in-istio-part-1-8221971d77de](https://dramasamy.medium.com/life-of-a-packet-in-istio-part-1-8221971d77de)
-*
+* [https://lapee79.github.io/article/setup-a-production-ready-istio/](https://lapee79.github.io/article/setup-a-production-ready-istio/)

@@ -80,6 +80,7 @@
       * [Struct 구조](tech/kubernetes/12.-operator/controller/struct.md)
   * [13. Monitoring](tech/kubernetes/13.-monitoring/README.md)
     * [용어집](tech/kubernetes/13.-monitoring/undefined.md)
+    * [Prometheus + Thanos + Minio](tech/kubernetes/13.-monitoring/prometheus-+-thanos-+-minio.md)
 * [🍙 Application](tech/application/README.md)
   * [🌵 ETCD](tech/application/etcd/README.md)
     * [Raft 알고리즘](tech/application/etcd/raft.md)
