@@ -125,6 +125,8 @@
         * [MVC 요청시, Thread 생성 될텐데, 어떻게 1개의 Controller가 생성 될까?](tech/application/java/spring-boot/thread/mvc-thread-1-controller.md)
     * [Spring Cloud](tech/application/java/spring-cloud/README.md)
       * [Spring Cloud Eureka](tech/application/java/spring-cloud/spring-cloud-eureka.md)
+    * [lombok](tech/application/java/lombok/README.md)
+      * [@Data](tech/application/java/lombok/data.md)
   * [🌱 MongoDB](tech/application/mongodb/README.md)
     * [1. Cluster](tech/application/mongodb/1.-cluster.md)
     * [XID, UUID 차이](tech/application/mongodb/xid-uuid.md)
