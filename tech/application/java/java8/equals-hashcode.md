@@ -223,9 +223,31 @@ public class Main {
 
 
 
-2.
+2. **`hashCode()`가 중복되어 같은 버킷에 여러 객체가 저장되면**, 그 버킷 내에서 **모든 객체를 `equals()`로 비교**하게 되어 성능 저하가 발생
 
-```
+<pre><code><strong>class PersonA {
+</strong>    private String name;
+    private String idNumber;
+
+    public PersonA(String name, String idNumber) {
+        this.name = name;
+        this.idNumber = idNumber;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof PersonA)) return false;
+        PersonA person = (PersonA) o;
+        return idNumber.equals(person.idNumber);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+}
+
 class PersonB {
     private String name;
     private String idNumber;
@@ -245,71 +267,69 @@ class PersonB {
 
     @Override
     public int hashCode() {
-        return idNumber.hashCode(); // 해시 코드 중복 발생
+        return "1".hashCode();
     }
 }
 
 public class Main {
     public static void main(String[] args) {
         
-        HashMap<PersonA, String> mapA = new HashMap<>();
+        HashMap&#x3C;PersonA, String> mapA = new HashMap&#x3C;>();
         long startTimeA = System.nanoTime();
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i &#x3C; 1000; i++) {
             PersonA p = new PersonA("Person" + i, i+"");
             mapA.put(p, "Value " + i);
         }
         long endTimeA = System.nanoTime();
         System.out.println("Map A size: " + mapA.size());
-        System.out.println("perform A: " + (endTimeA - startTimeA) + " ns");
+        System.out.println("save A: " + (endTimeA - startTimeA) + " ns");
 
         
-        HashMap<PersonB, String> mapB = new HashMap<>();
+        HashMap&#x3C;PersonB, String> mapB = new HashMap&#x3C;>();
         long startTimeB = System.nanoTime();
-        for (int i = 0; i < 1000; i++) {
-            PersonB p1 = new PersonB("Person" + i, "123456");
-            mapB.put(p1, "Value " + i);             
+        for (int i = 0; i &#x3C; 1000; i++) {
+            PersonB p = new PersonB("Person" + i, i+"");
+            mapB.put(p, "Value " + i);
         }
         long endTimeB = System.nanoTime();
         System.out.println("Map B size: " + mapB.size());
-        System.out.println("perform B: " + (endTimeB - startTimeB) + " ns");
+        System.out.println("save B : " + (endTimeB - startTimeB) + " ns");
 
         
-        PersonA searchPersonA = new PersonA("Person999", "123456");
+        PersonA searchPersonA = new PersonA("Person999", "999");
         long searchStartTimeA = System.nanoTime();
         mapA.get(searchPersonA); 
         long searchEndTimeA = System.nanoTime();
-        System.out.println("A time: " + (searchEndTimeA - searchStartTimeA) + " ns");
+        System.out.println("search A: " + (searchEndTimeA - searchStartTimeA) + " ns");
 
-        PersonB searchPersonB = new PersonB("Person999", "123456");
+        PersonB searchPersonB = new PersonB("Person999", "999");
         long searchStartTimeB = System.nanoTime();
-        mapB.get(searchPersonB); 
+        mapB.get(searchPersonB);
         long searchEndTimeB = System.nanoTime();
-        System.out.println("B time: " + (searchEndTimeB - searchStartTimeB) + " ns");
+        System.out.println("search B: " + (searchEndTimeB - searchStartTimeB) + " ns");
     }
 }
 --------------------
 Map A size: 1000
-저장perform A: 202,159,961 ns 
-Map B size: 1
-저장perform B: 73,761,413 ns
-조회A time: 8250 ns
-조회B time: 20450 ns
-```
+save A: 83,832,236 ns
+Map B size: 1000
+save B : 67,788,539 ns
+search A: 20,280 ns
+search B: 158,700 ns
+</code></pre>
 
 PersonA의 경우,  메모리 주소 기반으로 해시 충돌이 발생 하지 않고, \
-PersonB의 경우 모든 객체가 동일한 해시코드를 갖는 경우
+PersonB의 경우 모든 객체가 동일한 해시 코드를 갖는 경우
 
 저장 성능 :
 
 * A : 각각 다른 버킷에 저장 되어 있으므로 -> 많은 메모리 소유
-* B : equals()를   통해기존 항목을 덮어쓰움 -> 저장 시간 적게 소요됨
+* B : equals()를 통해 기존 항목을 덮어씀 -> 저장 시간 적게 소요됨
 
 검색 성능 :&#x20;
 
-* A : 해시 충돌 발생 X -> 버킷 검색 빠름 -> 버킷   내 검색 없음
+* A : 해시 충돌 발생 X -> 버킷 검색 빠름 -> 버킷 내 equlas() 검색 없음
 * B : 같은 버킷 저장 -> 모든 객체 equals() 비교 -> 검색 느림
-
-_**검색시, 해시충돌로 인해, 여러 객체를 비교 해야 하므로 검색 성능이 느려진다.**_
 
 
 

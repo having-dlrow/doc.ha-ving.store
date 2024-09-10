@@ -111,6 +111,7 @@
       * [@Transient](tech/application/java/jpa/transient.md)
       * [@Access](tech/application/java/jpa/access.md)
       * [N+1](tech/application/java/jpa/n+1.md)
+      * [Page 2](tech/application/java/jpa/page-2.md)
     * [AssertJ](tech/application/java/assertj.md)
     * [Spring Boot](tech/application/java/spring-boot/README.md)
       * [GlobalExceptionHandler](tech/application/java/spring-boot/globalexceptionhandler.md)
