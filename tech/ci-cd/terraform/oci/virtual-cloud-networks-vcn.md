@@ -35,3 +35,7 @@ VCN통해 구성할 수 있는 예시는 아래와 같다.
     * Network Load Balancer Type: L4 로드밸런서로 일반 IP, Port로 분배할때 사용합니다.
 
     ![image-20230509131145882](https://thekoguryo.github.io/oci/chapter10/images/image-20230509131145882.png)
+
+Ref
+
+* [https://thekoguryo.github.io/oci/chapter10/2/](https://thekoguryo.github.io/oci/chapter10/2/)
