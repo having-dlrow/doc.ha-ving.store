@@ -256,6 +256,7 @@
       * [인공 신경망](books/it/undefined-4/undefined-2/undefined/README.md)
         * [퍼센트론](books/it/undefined-4/undefined-2/undefined/undefined.md)
         * [MNIST](books/it/undefined-4/undefined-2/undefined/mnist.md)
+        * [CNN (합성곱 신경망)](books/it/undefined-4/undefined-2/undefined/cnn.md)
       * [Tensor](books/it/undefined-4/undefined-2/tensor.md)
     * [AI](books/it/undefined-4/ai.md)
 
