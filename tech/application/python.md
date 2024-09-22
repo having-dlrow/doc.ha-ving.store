@@ -2,6 +2,12 @@
 
 {% embed url="https://wikidocs.net/11" %}
 
+| 데이터 구조                                           | 순서 유지 | 중복 허용  | 가변 |
+| ------------------------------------------------ | ----- | ------ | -- |
+| Tuple                                            | O     | O      | X  |
+| <mark style="background-color:blue;">List</mark> | O     | O      | O  |
+| Dictionary                                       | O     | 키 중복 X | O  |
+
 ## Tuple
 
 * `(1,2)` 형태
@@ -65,7 +71,7 @@ TypeError: 'NoneType' object is not subscriptable
 
 ## List
 
-* `[a,b]` 형태
+* <mark style="background-color:blue;">`[a,b]형태`</mark>
 
 ```
 
