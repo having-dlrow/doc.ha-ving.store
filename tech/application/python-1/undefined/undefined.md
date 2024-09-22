@@ -4,9 +4,9 @@
 
 <details>
 
-<summary></summary>
+<summary>제곱을 나타내는 **연산자</summary>
 
-sdfsd젝ㅂ제고ㅂㅇㄹ제ㅂ제곱을 나타내는 \*\*연산자
+a \*\* b
 
 </details>
 
