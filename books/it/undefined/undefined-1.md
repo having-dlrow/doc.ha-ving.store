@@ -7,7 +7,7 @@
 
 ## 식별 관계
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 자식 테이블의 기본키 =   부모 테이블 기본키 +   기본키
 2. 부모테이블의 데이터가 존재해야 입력 가능하다.
@@ -16,7 +16,7 @@
 
 ## 비식별 관계
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. 자식 테이블의 기본키 = 기본키
 2. 부모 기본키는 FK로 등록

@@ -20,5 +20,5 @@
          1. ILF (Internal Logical Files)
          2. ELF (External Logical Files)
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption><p>시스템 구축비</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51).png" alt=""><figcaption><p>시스템 구축비</p></figcaption></figure>
 
