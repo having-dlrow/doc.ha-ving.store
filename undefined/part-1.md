@@ -1,10 +1,14 @@
+---
+icon: face-icicles
+---
+
 # PART 1 - 발주자 안내서
 
 1. 클라우드 네이티브 개요
    1. 클라우드 네이티브 정의
    2. <mark style="background-color:blue;">클라우드 어플리케이션 성숙도 단계</mark>
    3. 클라우드 네이티브 구성요소
-   4. 클라우드 네이티브 특장점
+   4. <mark style="background-color:blue;">클라우드 네이티브 특장점</mark>
 2. 도입 필요성
 3. 구성 요소 및 원칙
    1. 마이크로 서비스
@@ -31,3 +35,26 @@
       1. 개발비 구성 요소
       2. 기능식별방식
    4. 데브옵스 조직 고려 사항
+
+***
+
+## 클라우드 네이티브 정의
+
+* <mark style="background-color:yellow;">클라우드 네이티브 환경에서 개발, 실행되는 애플리케이션</mark>
+* 프라이빗, 퍼블릭 및 하이브리드 클라우드 환경 전체에 지속적인 개발과 자동화된 관리 환경을 제공하기 위해 설계된 애플리케이션이다.
+* 클라우드 내에서 확장이 가능하고, 어떤 클라우드 환경에도 이식이 가능하다.
+
+## 클라우드 어플리케이션 성숙도 단계
+
+* Level 0 : 기존 환경
+* Level 1 : 클라우드 준비
+* Level 2 : 클라우드 친화 단계
+* **Level 3 : 클라우드 네이티브 단계**
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+## 클라우드 네이티브 특장점
+
+<table><thead><tr><th width="155" align="center"> 구성 요소</th><th align="center">주요 특징</th></tr></thead><tbody><tr><td align="center">Micro Service</td><td align="center"><ul><li>소규모 서비스</li><li>독립 서비스 운영</li><li>다양한 언어/기술 적용 (Polyglot)</li><li>유지보수 용이성</li></ul></td></tr><tr><td align="center">Container</td><td align="center"><ul><li>효율ㅈㄱ 효율적 개발환경 구축</li></ul></td></tr><tr><td align="center"></td><td align="center"></td></tr></tbody></table>
+
+## 클라우드 네이티브 어플리케이션 아키텍처
