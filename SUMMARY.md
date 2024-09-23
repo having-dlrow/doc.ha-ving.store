@@ -264,12 +264,18 @@
       * [Tensor](books/it/undefined-4/undefined-2/tensor.md)
     * [AI](books/it/undefined-4/ai.md)
 
+***
+
+* [클라우드네이티브 정보시스템 구축을 위한 발주사 안내서](undefined/README.md)
+  * [PART 1 - 발주자 안내서](undefined/part-1.md)
+  * [PART 2 - 개발자 안내서](undefined/part-2.md)
+
 ## 한글화 작업
 
-* [스프링 프레임워크](undefined/undefined/README.md)
-  * [🌲 The IoC Container](undefined/undefined/the-ioc-container/README.md)
-    * [- Spring IoC 컨테이너 및 Bean 소개](undefined/undefined/the-ioc-container/spring-ioc-bean.md)
-    * [- 컨테이너 개요](undefined/undefined/the-ioc-container/undefined.md)
-* [Gradle](undefined/gradle/README.md)
-  * [- Gradle Build 개념](undefined/gradle/gradle-build.md)
-  * [- Gradle 이란?](undefined/gradle/gradle.md)
+* [스프링 프레임워크](undefined-1/undefined/README.md)
+  * [🌲 The IoC Container](undefined-1/undefined/the-ioc-container/README.md)
+    * [- Spring IoC 컨테이너 및 Bean 소개](undefined-1/undefined/the-ioc-container/spring-ioc-bean.md)
+    * [- 컨테이너 개요](undefined-1/undefined/the-ioc-container/undefined.md)
+* [Gradle](undefined-1/gradle/README.md)
+  * [- Gradle Build 개념](undefined-1/gradle/gradle-build.md)
+  * [- Gradle 이란?](undefined-1/gradle/gradle.md)
