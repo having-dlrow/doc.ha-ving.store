@@ -265,12 +265,12 @@
         * [CNN (합성곱 신경망)](books/it/undefined-4/undefined-2/undefined/cnn.md)
       * [Tensor](books/it/undefined-4/undefined-2/tensor.md)
     * [AI](books/it/undefined-4/ai.md)
-* [클라우드네이티브 정보시스템 구축을 위한 발주사 안내서](books/undefined-1/README.md)
-  * [PART 1 - 발주자 안내서](books/undefined-1/part-1/README.md)
-    * [클라우드 네이티브 정보시스템 구축 사업 제안 요청서 작성시 고려사항](books/undefined-1/part-1/undefined.md)
-  * [⭐ PART 2 - 개발자 안내서](books/undefined-1/part-2/README.md)
-    * [설계 단계](books/undefined-1/part-2/undefined.md)
-    * [운영 단계](books/undefined-1/part-2/undefined-1.md)
+* [클라우드네이티브 정보시스템 구축을 위한 발주사 안내서](undefined/README.md)
+  * [PART 1 - 발주자 안내서](undefined/part-1.md)
+    * [클라우드 네이티브 정보시스템 구축 사업 제안 요청서 작성시 고려사항](undefined/part-1/undefined.md)
+  * [⭐ PART 2 - 개발자 안내서](undefined/part-2/README.md)
+    * [설계 단계](undefined/part-2/undefined.md)
+    * [운영 단계](undefined/part-2/undefined-1.md)
 
 ## 한글화 작업
 
