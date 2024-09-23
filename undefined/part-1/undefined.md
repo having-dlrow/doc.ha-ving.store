@@ -20,13 +20,5 @@
          1. ILF (Internal Logical Files)
          2. ELF (External Logical Files)
 
-
-
-|         |                     |   |
-| ------- | ------------------- | - |
-| 시스템 구추비 | HW 구매비              |   |
-|         | SW 구축비              |   |
-|         | DB 구축비              |   |
-|         | 기존 시스템 이저ㅣ이전비이전비이전비 |   |
-|         | 시스템 운용환경 구추ㅂ구축비     |   |
+<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption><p>시스템 구축비</p></figcaption></figure>
 

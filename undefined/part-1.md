@@ -62,7 +62,7 @@ icon: face-icicles
 * Level 2 : 클라우드 친화 단계
 * **Level 3 : 클라우드 네이티브 단계**
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 클라우드 네이티브 특장점
 
