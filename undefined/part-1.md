@@ -44,6 +44,13 @@ icon: face-icicles
 * 프라이빗, 퍼블릭 및 하이브리드 클라우드 환경 전체에 지속적인 개발과 자동화된 관리 환경을 제공하기 위해 설계된 애플리케이션이다.
 * 클라우드 내에서 확장이 가능하고, 어떤 클라우드 환경에도 이식이 가능하다.
 
+## 클라우드 네이티브  확산 배경
+
+* 디지털 혁신(클라우드, 빅데이터, AI, 블록체인)을 통한 비지니스 역량 강화 및 경쟁력 확보
+* 새로운 비지니스 기회 창출 및 변화에 기민한 대응
+  * 비대면 서비스/업무 확산에 따른, 수요 변동에 신속하게 대응
+  * 시스템의 유연성과 확장성 요구
+
 ## 클라우드 어플리케이션 성숙도 단계
 
 * Level 0 : 기존 환경
@@ -56,5 +63,10 @@ icon: face-icicles
 ## 클라우드 네이티브 특장점
 
 <table><thead><tr><th width="155" align="center"> 구성 요소</th><th align="center">주요 특징</th></tr></thead><tbody><tr><td align="center">Micro Service</td><td align="center"><ul><li>소규모 서비스</li><li>독립 서비스 운영</li><li>다양한 언어/기술 적용 (Polyglot)</li><li>유지보수 용이성</li></ul></td></tr><tr><td align="center">Container</td><td align="center"><ul><li>효율적 개발환경 구축</li><li>경량화</li><li>높은 이식성</li><li>확장성</li></ul></td></tr><tr><td align="center">DevOps</td><td align="center"><ul><li>서비스 단위 개발/운영 협업</li><li>신속한 서비스 개발 및 배포</li></ul></td></tr><tr><td align="center">CI/CD</td><td align="center"><ul><li>프로세스 자동화</li><li>소규모 배포</li></ul></td></tr></tbody></table>
+
+### 클라우드네이티브단점
+
+* 빌드 - 배포 구간에서의 보안 취약점 발생
+* 클라우드 사업자( GCP, AZURE)  대한 종속성 발생
 
 ## 클라우드 네이티브 어플리케이션 아키텍처
