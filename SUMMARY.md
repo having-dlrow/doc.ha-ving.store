@@ -270,7 +270,6 @@
     * [클라우드 네이티브 정보시스템 구축 사업 제안 요청서 작성시 고려사항](undefined/part-1/undefined.md)
   * [⭐ PART 2 - 개발자 안내서](undefined/part-2/README.md)
     * [설계 단계](undefined/part-2/undefined.md)
-    * [운영 단계](undefined/part-2/undefined-1.md)
 
 ## 한글화 작업
 
