@@ -11,7 +11,7 @@ Oracle 데이터 센터에 서버 자원들이 사용할 가상의 네트워크 
 
 VCN통해 구성할 수 있는 예시는 아래와 같다.
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 단일 Virtual Machine이 인터넷 게이트웨이를 통해 외부와 통신
 
@@ -19,7 +19,7 @@ VCN통해 구성할 수 있는 예시는 아래와 같다.
 
 
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Public Load Balancer**가 있는 아키텍처입니다. 로드 밸런서는 가용 도메인 내의 여러 Fault Domain에 위치한 VM들에 트래픽을 분산시키며, 이는 고가용성을 위해 설계된 구조
 

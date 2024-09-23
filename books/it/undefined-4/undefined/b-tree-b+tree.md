@@ -13,7 +13,7 @@
 | 포화이진트리 | 모든 leaf 노드가 꽉찬 트        |
 | 균형이진트리 | 최대 1레벨까지만 만드는 트리        |
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### B-Tree, B+Tree 사용
 
@@ -32,7 +32,7 @@
 4. 정해친 차수를 유지 하기 위해, 노드를 이동시킨다.
 5. 대량의 데이터를 처리해야 하는 검색 구조인 경우 하나의 노드에 많은 데이터를 가질 수 있다는 점은 큰 장점
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 차수 : 3
 
@@ -49,7 +49,7 @@ ex) **13**이 들어오면
 3. leaf 노드만 선형적으로 검사 ( 보다 검색이 빠른 이유 )
 4. B-Tree 보다 삽입/삭제에 이점을 가진다.
 
-<figure><img src="../../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
