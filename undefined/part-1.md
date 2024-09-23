@@ -55,6 +55,6 @@ icon: face-icicles
 
 ## 클라우드 네이티브 특장점
 
-<table><thead><tr><th width="155" align="center"> 구성 요소</th><th align="center">주요 특징</th></tr></thead><tbody><tr><td align="center">Micro Service</td><td align="center"><ul><li>소규모 서비스</li><li>독립 서비스 운영</li><li>다양한 언어/기술 적용 (Polyglot)</li><li>유지보수 용이성</li></ul></td></tr><tr><td align="center">Container</td><td align="center"><ul><li>효율ㅈㄱ 효율적 개발환경 구축</li></ul></td></tr><tr><td align="center"></td><td align="center"></td></tr></tbody></table>
+<table><thead><tr><th width="155" align="center"> 구성 요소</th><th align="center">주요 특징</th></tr></thead><tbody><tr><td align="center">Micro Service</td><td align="center"><ul><li>소규모 서비스</li><li>독립 서비스 운영</li><li>다양한 언어/기술 적용 (Polyglot)</li><li>유지보수 용이성</li></ul></td></tr><tr><td align="center">Container</td><td align="center"><ul><li>효율적 개발환경 구축</li><li>경량화</li><li>높은 이식성</li><li>확장성</li></ul></td></tr><tr><td align="center">DevOps</td><td align="center"><ul><li>서비스 단위 개발/운영 협업</li><li>신속한 서비스 개발 및 배포</li></ul></td></tr><tr><td align="center">CI/CD</td><td align="center"><ul><li>프로세스 자동화</li><li>소규모 배포</li></ul></td></tr></tbody></table>
 
 ## 클라우드 네이티브 어플리케이션 아키텍처
