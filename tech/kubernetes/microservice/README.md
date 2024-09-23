@@ -17,8 +17,10 @@
 
 ## 어려운 점
 
-* Transaction :  P2C , Saga Pattern
-* Data Query : A 서비스 성공 데이터 left Join 계좌 조회 성공 데이터
+* Transaction :  ~~P2C~~ , Saga Pattern
+* Data
+* Event
+* API 조합 & Query : A 서비스 성공 데이터 left Join 계좌 조회 성공 데이터
 
 ## 고려사항
 

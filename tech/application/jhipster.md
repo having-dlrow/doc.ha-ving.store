@@ -1,4 +1,4 @@
-# JHipster
+# 🍱 JHipster
 
 ## JHipster <a href="#jhipster" id="jhipster"></a>
 
