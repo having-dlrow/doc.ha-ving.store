@@ -4,6 +4,8 @@ description: https://pearlluck.tistory.com/284
 
 # Free Tier
 
+{% embed url="https://aws.amazon.com/ko/free/" %}
+
 ## Computing
 
 |           |   |   |
