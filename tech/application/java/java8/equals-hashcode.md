@@ -4,13 +4,14 @@
 
 **equals() 와 hashcode()**
 
-* equals() 는 두 개의 객체가 동일한지 동일성을 비교하는 것입니다. 즉, 객체가 **같은 메모리 주소**인지 비교합니다.
-* hashcode() 는 **객체의 메모리 주소에 대한 해시 코드**를 반환하는 메소드입니다.&#x20;
+* <mark style="color:red;">**Object와 String 객체 equals가 다르다는 것을 항상 기억하자.**</mark>&#x20;
+  * <mark style="color:red;">**String ::**</mark> equals() 는 값 비교한다.
+  * <mark style="color:red;">**Object ::**</mark> equals() 는 두 개의 객체가 동일한지 동일성을 비교하는 것입니다. 즉, 객체가 **같은 메모리 주소**인지 비교한다.
+* hashcode() 는 **객체의 메모리 주소에 대한 해시 코드**를 반환하는 메소드이다
 
 **equals() 를 오버라이딩해서 사용하는 이유**
 
-* 같은 객체로 인식해야 하는 경우가 있는데 이런 경우\
-  동등성을 가지도록 equals() 를 오버라이딩 해주어야합니다.
+* 값을 기준으로 같은 객체로 인식해야 하는 경우
 
 **equals() 를 오버라이드할 때 hashcode() 도 같이 오버라이드 하는 이유**
 
@@ -19,9 +20,11 @@
 
 ## equals() 와 hashcode() 의 차이점
 
-**equals() 메서드는 주소기반 비교를 하지 않으며, Object 클래스의 구현에 한정하여, 내용이나 값을 비교한다.** 단순히 == 연산을 통한, 참조비교를 수행하며 이때, 객체가 같은 메모리 주소를 참조하는지 확인 할 수 있다.
+**String equals() 메서드는 주소기반 비교를 하지 않으며, Object 클래스의 구현에 한정하여, 내용이나 값을 비교한다.** 단순히 == 연산을 통한, 참조 비교를 수행하며 이때, 객체가 같은 메모리 주소를 참조하는지 확인 할 수 있다.
 
 
+
+### hashcode
 
 반면, hashcode()는 기본적으로 메모리 주소를 해시코드로 변환하여 준다.&#x20;
 
@@ -53,7 +56,7 @@ native 키워드를 통해 C/C++로 구현된 메서드에 의해 JVM에 할당�
 요약: 객체가 title 이라는 변수를 가지는 상황에서, instanceof을 통해 class를 비교하고, 변수의 값을 비교 하고 있다.
 ```
 
-### Object.equals()
+### Object.equals
 
 Object 기본 구현은 객체 메모리 주소 비교이다. Object.equals()는 두 객체가 같은 메모리 주소인 경우 true 반환한다.
 
@@ -68,8 +71,6 @@ Object 기본 구현은 객체 메모리 주소 비교이다. Object.equals()는
 ```
 if (this$title == null ? other$title != null : !this$title.equals(other$title)) return false;
 ```
-
-<mark style="color:red;">**Object와 String 객체 equals가 다르다는 것을 항상 기억하자.**</mark>&#x20;
 
 
 
@@ -101,7 +102,7 @@ if (this$title == null ? other$title != null : !this$title.equals(other$title)) 
     }
 ```
 
-### instanceOf
+### InstanceOf
 
 클래스의 이름이나 주소를 직접 비교하지 않는다. 객체가 속한 클래스 타입을 런타임시 확인하여 비교한다.&#x20;
 
@@ -129,7 +130,7 @@ equals() 변경하여 사용 할 수 있다.
 
 
 
-<mark style="color:blue;">**HashSet**</mark>, HashMap 같은 컬렉션에서 중복처리 하는 경우, equals 오버라이딩한 객체를 통해 정확한 중복체크가 가능하다.
+<mark style="color:blue;">**HashSet**</mark>, HashMap 같은 컬렉션에서 중복 처리 하는 경우, equals 오버라이딩한 객체를 통해 정확한 중복체크가 가능하다.
 
 ```
 Set<Person> personSet = new HashSet<>();

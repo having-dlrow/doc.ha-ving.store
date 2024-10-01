@@ -13,7 +13,7 @@
 | 포화이진트리 | 모든 leaf 노드가 꽉찬 트        |
 | 균형이진트리 | 최대 1레벨까지만 만드는 트리        |
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### B-Tree, B+Tree 사용
 

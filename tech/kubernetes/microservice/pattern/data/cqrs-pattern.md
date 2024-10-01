@@ -1,2 +1,2 @@
-# - CQRS Pattern
+# ✔️ CQRS Pattern
 
