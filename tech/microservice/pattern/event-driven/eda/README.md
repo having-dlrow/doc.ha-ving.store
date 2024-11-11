@@ -4,7 +4,7 @@ description: https://hazelcast.com/glossary/event-driven-architecture/
 
 # - EDA
 
-<figure><img src="../../../../../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://hazelcast.com/glossary/event-driven-architecture/">https://hazelcast.com/glossary/event-driven-architecture/</a></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><a href="https://hazelcast.com/glossary/event-driven-architecture/">https://hazelcast.com/glossary/event-driven-architecture/</a></p></figcaption></figure>
 
 * <mark style="color:red;">**백업/통제/실패 정책을 잘 수립해야한다.**</mark>
 * 비지니스&#x20;
