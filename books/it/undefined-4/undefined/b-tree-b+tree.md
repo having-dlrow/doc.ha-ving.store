@@ -32,7 +32,7 @@
 4. 정해친 차수를 유지 하기 위해, 노드를 이동시킨다.
 5. 대량의 데이터를 처리해야 하는 검색 구조인 경우 하나의 노드에 많은 데이터를 가질 수 있다는 점은 큰 장점
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 차수 : 3
 

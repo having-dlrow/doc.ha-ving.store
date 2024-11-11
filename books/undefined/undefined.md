@@ -1,13 +1,24 @@
 ---
 description: >-
   https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002796829
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # 마이크로서비스 아키텍처 기반 애플리케이션 프레임워크 구현 및 평가
 
+
+
 논문 게시일 : 2024.12
-
-
 
 ***
 
@@ -40,7 +51,7 @@ description: >-
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -54,7 +65,7 @@ description: >-
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -67,7 +78,7 @@ description: >-
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>ATAM Evaluation Procedure</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>ATAM Evaluation Procedure</p></figcaption></figure>
 
 </div>
 
@@ -88,7 +99,13 @@ Architecture가 특정 품질 속성을 만족하는지 분석
 1. <mark style="background-color:blue;">데이터 통신 기반, 신뢰성 확보 필요</mark>
 2. <mark style="background-color:blue;">인프라 가용성 확보 필요</mark>
 
-<table><thead><tr><th width="124">속성</th><th>설명</th><th>중요성</th><th>어려움</th></tr></thead><tbody><tr><td>신뢰성</td><td></td><td>높음</td><td>ㅁ</td></tr><tr><td>재사용성</td><td></td><td>높음</td><td></td></tr><tr><td>가용성</td><td></td><td></td><td></td></tr><tr><td>성능</td><td></td><td></td><td></td></tr><tr><td>유지성</td><td></td><td></td><td></td></tr></tbody></table>
+위험에 대응하기 위한 프레임워크의 기능 평가
 
-위험에 대응하기 위한 프레임워크의 기능
+<table><thead><tr><th width="128">속성</th><th width="395">설명</th><th width="90">중요성</th><th>어려움</th></tr></thead><tbody><tr><td>신뢰성</td><td>오류처리, 재처리, 동기/비동기 통신</td><td>높음</td><td>높음</td></tr><tr><td>재사용성</td><td>재사용</td><td>높음</td><td>높음</td></tr><tr><td>가용성</td><td>시스템 가용성 보장</td><td>높음</td><td>중간</td></tr><tr><td>수정가능성</td><td>업무 프로세스 및 룰 변경에 따른 유연성</td><td>높음</td><td>중간</td></tr><tr><td>성능</td><td>목표 동시 접속자 대응 성</td><td>중간</td><td>중간</td></tr><tr><td>유지성</td><td>운영관리 용이성</td><td>중간</td><td>중간</td></tr></tbody></table>
+
+
+
+ATAM 평가 결과
+
+<table><thead><tr><th width="102">분석</th><th width="76">구분</th><th width="278">Risk 설명</th><th>Framework Function</th></tr></thead><tbody><tr><td>위험</td><td>MSA</td><td>마이크로 서비스 간 <mark style="background-color:blue;"><strong>통신 실패</strong></mark>, 전체 서비스 장애 발생 가능</td><td>MQ 이벤트 기반 통신</td></tr><tr><td>위험</td><td>MSA</td><td>마이크로 서비스 실패, 전체 서비스 장애 발생 가능</td><td>Eureka 기반 health 모니터링<br>서비스 이중화</td></tr><tr><td>위험</td><td>MSA</td><td>다수의 인프라 관리의 어려움 (eg.  서비스/배포인프라/개발도구 )</td><td>Kubernetes Orchestration 활용</td></tr><tr><td>Sensitivity Point</td><td>MSA</td><td>마이크로 서비스의 수가 증가함에 따라, 전반적 성능 저하</td><td></td></tr></tbody></table>
 

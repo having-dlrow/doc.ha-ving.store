@@ -36,7 +36,7 @@ OAuth2.0 은 애플리케이션 인증 및 권한 부여를 위한 개방형 표
 
 
 2. 카카오 개발자 센터에 등록한 /social/login/kakao?code=xxxxx 호출 해줌\
-   ![](<../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png>)
+   ![](<../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png>)
 3.  social/login/kakao controller 에서 Access Token 요청 호출
 
     1. **{kakao.url/oauth/token}?client\_id=xxx\&response\_type=code\&redirect\_url={액세스토큰받는URL}**
@@ -67,7 +67,7 @@ OAuth2.0 은 애플리케이션 인증 및 권한 부여를 위한 개방형 표
 
 \[ 카카오로 다시 확인 ]
 
-<figure><img src="../../../../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### JWT 토큰 방식 비교
 
