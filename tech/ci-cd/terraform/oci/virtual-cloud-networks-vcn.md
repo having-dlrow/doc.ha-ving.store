@@ -36,6 +36,20 @@ VCN통해 구성할 수 있는 예시는 아래와 같다.
 
     ![image-20230509131145882](https://thekoguryo.github.io/oci/chapter10/images/image-20230509131145882.png)
 
+
+
+## 항상 무료
+
+오라클에서 무료 계정으로 가능한 로드밸런서는
+
+1. Network Loadbalancer 1개
+2. Loadbalancer 1개
+3. VCN 2개
+4. VCN 로그 월10G
+
+
+
 Ref
 
 * [https://thekoguryo.github.io/oci/chapter10/2/](https://thekoguryo.github.io/oci/chapter10/2/)
+* [https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier\_topic-Always\_Free\_Resources.htm](https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm)&#x20;
