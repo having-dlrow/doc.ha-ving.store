@@ -1,0 +1,93 @@
+# Storage
+
+## EBS (Elastic Block Storage)
+
+* 인스턴스 삭제 후에도 유지 할 수 있는 Storage => 장기 데이터 보관
+* AZ 기준으로 동작
+* snapshot을 통해서 보관 가능
+* 다른 AZ에는 snapshot 저장소로 전환하여 복원 가능
+* Volume Type
+  * gp2/gp3 (General Purpose SSD) : 범용 SSD
+  * io1/io2 Block Express (SSD) : 고성능 SSD
+  * st (HDD) : 읽기 행위 특화한 HDD
+  * sc (HDD) : 가성비 HDD
+
+Local Ec2 Instance Store
+
+* Cache, Buffer, Temp 파일 같은 용도
+
+## EFS ( Elastic File System )
+
+* EC2에  mount 가능한  Managed NFS 서비스
+* 따라서, 여러 EC2가 동일한 EFS 접근 가능
+* NFS 크기를 확장 가능
+* 1000s 동시 사용자 가능, 10GB+/s Throughput
+
+
+
+Aurora
+
+* 기계학습과 연동가능
+  * SageMaker&#x20;
+  * comprehend
+
+RDS&#x20;
+
+* 읽기 전용 복제본 (최대 15개)
+  * 비동기 복제
+  * 다중 AZ 동기 복제
+* Snapshot
+* Proxy
+  * 데이터 베이스 연결 최적화
+  * 읽기 성능 개선
+
+
+
+ElasticCache ( Redis )
+
+* 인증 토큰, 세션 정보 관리
+* Redis , Memcached 가능
+* 읽기 전용 복제본 지원
+
+
+
+S3
+
+* object : 실행이 안되는 파일을 말함 (개념)
+  * 최대 50GB 가능, 넘으면 나눠서 저장하면 됨
+* ACL : 최근 안씀
+* Bucket Policies&#x20;
+* versioning
+* 복제&#x20;
+  * Cross Regions : CRR
+  * Same Regions : SRR
+* 유형
+  * S3 standard  : 자주 접근하는 데이터 (기본값)
+  * S3 Infrequent Access : 잘 안쓰는 데이터&#x20;
+    * One-Zone IA : 중요하지 않은 데이터 & 잘 안씀
+  * S3 Glacier Flexible Retriveal&#x20;
+    * 최소 보관 90일
+  * S3 Glacier Deep Archieve
+    * 빙하에 넣을 정도로 Arhieve
+      * 최소 보관일 180일, 가장 저렴
+  * S3 Intelligent-Tiering
+    * ML 사용하여, 패턴화 하여 타입을 변경해줌
+  * S3 File Gateway
+    * 온프레미스에서 S3에 원활하게 연결하기 위한, Hybrid 형태
+* EC2가 S3에 접근하는 방법 : IAM 역할 부여 (ex. s3:GetBucketObjectLockConfiuration)
+  * Cors 허용 : 인증된 Get 요청을 보내는 Javascript을 실행할 때
+* 파일 암호화
+  * SSE-S3  : 서버측 암호화 (AES256, 기본값)
+  * SSE-KMS : 키관리 서비스에 있는 키로 암호화
+  * SSE-C : PUT요청에 제공된 암호화키 사용
+
+
+
+## CloudFront
+
+
+
+## Global Accelerator
+
+
+
