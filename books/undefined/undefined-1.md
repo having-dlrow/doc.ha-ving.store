@@ -52,7 +52,7 @@ description: >-
   노드에 배포된 파드들의 request 값의 합을 기준으로 스케줄링
 * 파드 request 값  (= 최소필요값)
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * <mark style="background-color:orange;">모든 컨테이너는 정의된 limit 값에 근접하는 리소스를 요구하지 않을 것이라고 가정한다 (한계점1)</mark>
 * 물리적인 메모리보다 초과하여 메모리 할당을 요구하는 컨테이너가 있으면 \

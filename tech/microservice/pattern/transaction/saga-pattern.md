@@ -23,7 +23,7 @@ description: https://livebook.manning.com/book/microservices-patterns/chapter-4/
    (Coordinator) 준비전체 완료     -> Commit -> (참여자)
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 :warning: **Coordinator 문제가 생기더라도, 비지니스 문제를 최소화 해야한다.**
 

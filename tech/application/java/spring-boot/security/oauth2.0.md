@@ -6,7 +6,7 @@ OAuth2.0 은 애플리케이션 인증 및 권한 부여를 위한 개방형 표
 
 ## **Authorization Code Grant**
 
-<div align="left"><figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ####
 
@@ -24,7 +24,7 @@ OAuth2.0 은 애플리케이션 인증 및 권한 부여를 위한 개방형 표
 
     1. 카카오의 페이지
 
-    <div align="left"><figure><img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure></div>
 
 
 2. 카카오 개발자 센터에 등록한 /social/login/kakao?code=xxxxx 호출 해줌\

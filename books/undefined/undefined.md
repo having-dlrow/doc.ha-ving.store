@@ -49,7 +49,7 @@ layout:
 
 ### 3. 마이크로 아키텍트 평가
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### 3.1 마이크로 아키텍트 구성 정의
 
