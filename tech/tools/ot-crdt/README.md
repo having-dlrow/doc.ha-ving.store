@@ -12,7 +12,7 @@
 
 OT
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * [https://github.com/Operational-Transformation/ot.js](https://github.com/Operational-Transformation/ot.js)
 * [https://github.com/gulf/gulf](https://github.com/gulf/gulf)
@@ -29,6 +29,6 @@ CRDT
 오픈소스
 
 * &#x20;Yorkie
-  * [https://www.youtube.com/watch?v=6LhMuuyAg\_E](https://www.youtube.com/watch?v=6LhMuuyAg\_E)
+  * [https://www.youtube.com/watch?v=6LhMuuyAg\_E](https://www.youtube.com/watch?v=6LhMuuyAg_E)
 * Monaco
   * [https://microsoft.github.io/monaco-editor/](https://microsoft.github.io/monaco-editor/)

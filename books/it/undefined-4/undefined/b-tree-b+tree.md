@@ -13,7 +13,7 @@
 | 포화이진트리 | 모든 leaf 노드가 꽉찬 트        |
 | 균형이진트리 | 최대 1레벨까지만 만드는 트리        |
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### B-Tree, B+Tree 사용
 
@@ -32,7 +32,7 @@
 4. 정해친 차수를 유지 하기 위해, 노드를 이동시킨다.
 5. 대량의 데이터를 처리해야 하는 검색 구조인 경우 하나의 노드에 많은 데이터를 가질 수 있다는 점은 큰 장점
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 차수 : 3
 
@@ -55,6 +55,6 @@ ex) **13**이 들어오면
 
 Ref
 
-* [https://www.youtube.com/watch?v=bqkcoSm\_rCs](https://www.youtube.com/watch?v=bqkcoSm\_rCs)
+* [https://www.youtube.com/watch?v=bqkcoSm\_rCs](https://www.youtube.com/watch?v=bqkcoSm_rCs)
 * [https://velog.io/@emplam27/자료구조-그림으로-알아보는-B-Tree](https://velog.io/@emplam27/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-B-Tree)
 * [https://escapefromcoding.tistory.com/731](https://escapefromcoding.tistory.com/731)

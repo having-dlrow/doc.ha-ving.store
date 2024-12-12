@@ -19,12 +19,8 @@ description: >-
 
 * 오버프로비저닝은 시스템 리소스의( CPU, 메모리) 활용률을 낮아지게 만든다.
 
-<!---->
-
-* 지나친 메모리 리소스 초과 사용은 노드의 메모리 부족으로 인해\
+- 지나친 메모리 리소스 초과 사용은 노드의 메모리 부족으로 인해\
   연쇄적인 컨테이너 재시작을 유발할 수 있다
-
-<!---->
 
 * 메모리 변동성이 높은 컨테이너(상태저장 애플리케이션) 큰 오버헤드를 유발할 수 있다
 
@@ -36,11 +32,7 @@ description: >-
 
 1. 메모리 사용량이 많은 노드에서 메모리 할당을 요청할 가능성이 큰 컨테이너를 식별하고 이러한 컨테이너를 일시정지한다
 
-<!---->
-
-2. 컨테이너의 CPU 사용량을 크게 줄이면 컨테이너가 일시정지하는 상태와 유사한 효과를 얻을 수 있다
-
-<!---->
+2) 컨테이너의 CPU 사용량을 크게 줄이면 컨테이너가 일시정지하는 상태와 유사한 효과를 얻을 수 있다
 
 3. 해당 노드의 메모리 사용량이 개선된 것으로 판단되면 컨테이너의 일시정지를 해제한다.
 
@@ -52,11 +44,7 @@ description: >-
 
 ## 2. 쿠버네티스의 자원관리 방식 및 한계점
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
 
 * kubelet은 containerd를 목적지로 하는 CRI-API를 호출하여 \
   컨테이너의 생성 및 삭제와 같은 관리 작업을 수행
@@ -64,11 +52,7 @@ description: >-
   노드에 배포된 파드들의 request 값의 합을 기준으로 스케줄링
 * 파드 request 값  (= 최소필요값)
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 * <mark style="background-color:orange;">모든 컨테이너는 정의된 limit 값에 근접하는 리소스를 요구하지 않을 것이라고 가정한다 (한계점1)</mark>
 * 물리적인 메모리보다 초과하여 메모리 할당을 요구하는 컨테이너가 있으면 \

@@ -6,11 +6,7 @@ OAuth2.0 은 애플리케이션 인증 및 권한 부여를 위한 개방형 표
 
 ## **Authorization Code Grant**
 
-<div align="left">
-
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ####
 
@@ -28,15 +24,11 @@ OAuth2.0 은 애플리케이션 인증 및 권한 부여를 위한 개방형 표
 
     1. 카카오의 페이지
 
-    <div align="left">
-
-    <figure><img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
-
-    </div>
+    <div align="left"><figure><img src="../../../../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure></div>
 
 
 2. 카카오 개발자 센터에 등록한 /social/login/kakao?code=xxxxx 호출 해줌\
-   ![](<../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png>)
+   ![](<../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png>)
 3.  social/login/kakao controller 에서 Access Token 요청 호출
 
     1. **{kakao.url/oauth/token}?client\_id=xxx\&response\_type=code\&redirect\_url={액세스토큰받는URL}**
@@ -119,4 +111,4 @@ Ref
 * [https://developers.kakao.com/docs/latest/ko/kakaologin/common](https://developers.kakao.com/docs/latest/ko/kakaologin/common)
 * [https://hoestory.tistory.com/32](https://hoestory.tistory.com/32)
 * [https://jangjjolkit.tistory.com/26](https://jangjjolkit.tistory.com/26)
-* [https://blog.naver.com/mds\_datasecurity/222182943542](https://blog.naver.com/mds\_datasecurity/222182943542)
+* [https://blog.naver.com/mds\_datasecurity/222182943542](https://blog.naver.com/mds_datasecurity/222182943542)

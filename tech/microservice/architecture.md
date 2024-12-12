@@ -4,7 +4,7 @@
 
 **\[기존] Layered Architecture** ( 계층화 ) : 계층 간 접근
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Presentation  Layer
 * Application  Layer

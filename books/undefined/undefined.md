@@ -49,11 +49,7 @@ layout:
 
 ### 3. 마이크로 아키텍트 평가
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### 3.1 마이크로 아키텍트 구성 정의
 
@@ -63,11 +59,7 @@ layout:
 
 3.2 서비스 요구사항 정의
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 1. 사원 정보를 생성/수정/삭제 API
 2. JSON 응답
@@ -76,11 +68,7 @@ layout:
 
 3.3 ATAM 평가 방법
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>ATAM Evaluation Procedure</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>ATAM Evaluation Procedure</p></figcaption></figure></div>
 
 ATAM은 품질 속성 요구사항과 비지니스 목표달성을 위한 Architecture 결정 사항을 평가
 

@@ -5,7 +5,7 @@ coverY: 0
 # Istio
 
 * [https://github.com/DickChesterwood/istio-fleetman](https://github.com/DickChesterwood/istio-fleetman) Kubernetes Istio : 완벽 실습 과정
-* [https://fastcampus.co.kr/dev\_online\_devops\_kubernetes](https://fastcampus.co.kr/dev\_online\_devops\_kubernetes) 실무까지 한번에 끝내는 DevOps를 위한 Docker & Kubernetes
+* [https://fastcampus.co.kr/dev\_online\_devops\_kubernetes](https://fastcampus.co.kr/dev_online_devops_kubernetes) 실무까지 한번에 끝내는 DevOps를 위한 Docker & Kubernetes
 
 <figure><img src="../../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
@@ -18,7 +18,7 @@ coverY: 0
 
 ## Istiod 구성요소
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 

@@ -11,7 +11,7 @@
 
 ## 개발자 블로그 방법론
 
-1. <mark style="background-color:yellow;">**'소재'**</mark>** 에 대한 글쓰기**
+1. <mark style="background-color:yellow;">**'소재'**</mark>**&#x20;에 대한 글쓰기**
    1. 주제 의식을 버리자
    2. 자기만의 관점이나 생각을 전달하지 말자
    3. '어떤 방식으로 해결한 내용' (소재,한일 위주로 적기)

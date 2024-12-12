@@ -82,7 +82,7 @@ eureka:
 
 <summary>서버 상태 확인 Task</summary>
 
-**`eviction-interval-timer-in-ms:`** 클라이언트로부터 하트비트가 계속 수신되는지 점검을 하는 주기**`(default: 60초)`**
+**`eviction-interval-timer-in-ms:`** 클라이언트로부터 하트비트가 계속 수신되는지 점검을 하는 주&#xAE30;**`(default: 60초)`**
 
 ```
 eureka:
@@ -141,7 +141,7 @@ eureka:
 
 <summary>클라이언트 상태 확인 Task</summary>
 
-**`eviction-interval-timer-in-ms:`** 클라이언트로부터 하트비트가 계속 수신되는지 점검을 하는 주기**`(default: 60초)`**
+**`eviction-interval-timer-in-ms:`** 클라이언트로부터 하트비트가 계속 수신되는지 점검을 하는 주&#xAE30;**`(default: 60초)`**
 
 ```
 eureka:
