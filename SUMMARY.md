@@ -105,6 +105,7 @@
     * [4. 분석 서비스](tech/aws/1./4..md)
     * [5. 개발자 서비스](tech/aws/1./5..md)
     * [6. IAM & KEY](tech/aws/1./6.-iam-and-key.md)
+  * [2. Cloud Native](tech/aws/2.-cloud-native.md)
 * [🍙 Application](tech/application/README.md)
   * [🌵 ETCD](tech/application/etcd/README.md)
     * [Raft 알고리즘](tech/application/etcd/raft.md)
